@@ -1,0 +1,16 @@
+.parent {
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+    display: grid;
+}
+
+.child {
+    background-color: #fff;
+    border: 1px solid red;
+
+}
+
+.merge {
+    grid-column: 1 / span 2;
+}
